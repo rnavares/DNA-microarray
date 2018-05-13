@@ -29,5 +29,49 @@ A makefile was included. To compile:
 $make
 ```
 
-Output
+Output: main_euler
+
+```
+ricardo@ricardo-XPS13-9333:~ ./main_euler 10 5
+=== SEQUENCE ===
+long: 10	 data:CGCCCAGCGT
+=== SPECTRUM ===
+Num_mers:  6
+long_mers: 5
+CCCAG
+CAGCG
+CCAGC
+GCCCA
+AGCGT
+CGCCC
+=== SPECTRUM ===
+Num_mers:  7
+long_mers: 4
+CCCA
+CCAG
+CAGC
+AGCG
+GCCC
+GCGT
+CGCC
+
+=== GRAPH ===
+7
+6
+0 1 1
+1 2 1
+2 3 1
+3 5 1
+4 0 1
+6 4 1
+
+
+=== EULER PATH ===
+ 6->  4->  0->  1->  2->  3->  5
+
+=== SEQUENCE ===
+long: 10	 data:CGCCCAGCGT
+
+```
+
 
