@@ -73,5 +73,94 @@ CGCC
 long: 10	 data:CGCCCAGCGT
 
 ```
+Out main_TSP
 
+```
+ricardo@ricardo-XPS13-9333:~ ./main_TSP 5 2 5
+
+=== SEQUENCES TO OVERLAP ===
+
+=== SEQUENCE ===
+long: 5	 data:GCCCA
+
+=== SEQUENCE ===
+long: 3	 data:CGT
+
+=== SEQUENCE ===
+long: 3	 data:TGT
+
+=== SEQUENCE ===
+long: 5	 data:CTTAT
+
+=== SEQUENCE ===
+long: 2	 data:AA
+
+
+=== GRAPH ===
+
+5
+20
+0 4 4
+0 3 5
+0 2 5
+0 1 5
+1 4 3
+1 3 3
+1 2 2
+1 0 3
+2 4 3
+2 3 3
+2 1 3
+2 0 3
+3 4 5
+3 2 4
+3 1 5
+3 0 5
+4 3 2
+4 2 2
+4 1 2
+4 0 2
+
+
+
+=== OBTAINED SEQUENCES===
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA5
+3 2 4
+3 1 5
+3 0 5
+4 3 2
+4 2 2
+4 1 2
+4 0 2
+
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA
+
+
+
+=== FINAL SEQUENCE ===
+
+=== SEQUENCE ===
+long: 17	 data:GCCCACGTGTCTTATAA5
+3 2 4
+3 1 5
+3 0 5
+4 3 2
+4 2 2
+4 1 2
+4 0 2
+
+```
 
